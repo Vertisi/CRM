@@ -95,7 +95,7 @@ while (list($ucfg_per_id, $ucfg_id, $ucfg_name, $ucfg_value, $ucfg_type, $ucfg_t
     if ($r == 13) {
         echo '<tr><td>&nbsp;</td>
 			<td><input type=submit class=btn name=save value="'
-            .gettext('Save Settings').'">
+           .gettext('Save Settings').'">
 			<input type=submit class=btn name=cancel value="'
             .gettext('Cancel').'">
 			</td></tr>';
@@ -156,7 +156,7 @@ while (list($ucfg_per_id, $ucfg_id, $ucfg_name, $ucfg_value, $ucfg_type, $ucfg_t
 ?>
 <tr>
 	<td colspan='3' class='text-center'>
-		<input type=submit class='btn btn-primary' name=save value="<?=  gettext('Save Settings') ?> ">
+		<input type=submit class='btn btn-primary' name=save value="<?= gettext('Save Settings') ?>">
 		<input type=submit class=btn name=cancel value="<?= gettext('Cancel') ?>" onclick="javascript:document.location = 'Menu.php';">
 	</td>
 </tr>

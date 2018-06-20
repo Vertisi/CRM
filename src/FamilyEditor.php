@@ -151,7 +151,6 @@ if (isset($_POST['FamilySubmit']) || isset($_POST['FamilySubmitAndAdd'])) {
     } else {
         $nEnvelope = "'0'";
     }
-
     $iCanvasser = 0;
     if ($_SESSION['user']->isCanvasserEnabled()) { // Only take modifications to this field if the current user is a canvasser
         $bOkToCanvass = isset($_POST['OkToCanvass']);

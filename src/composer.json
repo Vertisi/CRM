@@ -11,13 +11,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "George Dawoud",
-            "homepage": "http://blog.dawouds.com",
-            "role": "Lead Developer"
+            "name": "Tony Mercado",
+            "homepage": "http://mywinnerschurch.com",
+            "role": "Developer"
         },
         {
-            "name": "Charles Crossan",
-            "homepage": "http://www.ccrossan.com",
+            "name": "Andres Preciado",
+            "homepage": "https://glitchery.jp",
             "role": "Developer"
         }
     ],
@@ -48,6 +48,7 @@
         "nexmo/client": "@beta",
         "slim/http-cache": "^0.4.0",
         "azuyalabs/yasumi": "^1.8"
+
     },
     "autoload": {
         "classmap": [

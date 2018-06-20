@@ -184,7 +184,7 @@ class SystemService
         $params->iArchiveType = 3;
         if (strcasecmp(SystemConfig::getValue('sExternalBackupType'), 'WebDAV') == 0) {
             if (SystemConfig::getValue('sExternalBackupUsername') && SystemConfig::getValue('sExternalBackupPassword') && SystemConfig::getValue('sExternalBackupEndpoint')) {
-                $backup = self::getDatabaseBackup($params);
+		$backup = self::getDatabaseBackup($params);
                 $backup->credentials = SystemConfig::getValue('sExternalBackupUsername') . ':' . SystemConfig::getValue('sExternalBackupPassword');
                 $backup->filesize = filesize($backup->saveTo);
                 $fh = fopen($backup->saveTo, 'r');

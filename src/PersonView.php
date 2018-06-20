@@ -251,6 +251,7 @@ $bOkToEdit = ($_SESSION['user']->isEditRecordsEnabled() ||
       <!-- /.box-header -->
       <div class="box-body">
         <ul class="fa-ul">
+<!--<li><i class="fa-li fa fa-tasks"></i>RFID: <span><?= $rfid ?></span></li>-->
           <li><i class="fa-li fa fa-group"></i><?php echo gettext('Family:'); ?> <span>
               <?php
               if ($fam_ID != '') {
